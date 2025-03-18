@@ -10,3 +10,6 @@ export type CartItem = Guitar &{
     quantity: number
 }
   
+// export type CartItem = Pick<Guitar, 'id' | 'name' | 'price'> & {
+//     quantity: number }
+
